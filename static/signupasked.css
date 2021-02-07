@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.log{
+    display: flex;
+}
+.log img{
+    width: 7vw;
+    padding: 2px;
+    margin: 0px;
+    background-color:white;
+    border-radius: 65px;
+    margin-top: 1.3vw;
+    margin-left: 1vw;
+}
+.log .text{
+    font-size: 3.2rem;
+    font-family: 'Bree Serif', serif;
+    margin: auto;
+    color: white;
+}
+.log::before{ 
+    content: "";
+    position: absolute;
+    background-color:black;
+    background-size: cover;
+    height: 25%;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.75;
+}
+.container{
+    display: flex;
+}
+.farmer{
+   width: 40vw;
+   padding: 30px;
+   margin-top: 7vw;
+}
+.farmer p{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.farmer .farm{
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.farmer1{
+    width: 40vw;
+    padding: 30px;
+    margin-top: 7vw;
+    margin-left: 20vw;
+ }
+ .farmer1 p{
+     font-family: 'Baloo Bhai', cursive;
+     font-size: 2.5rem;
+     padding: 10px;
+ }
+ .farmer1 .farm1{
+     font-size: 1.4rem;
+     padding: 10px;
+ }
+ .farmer .btn{
+     padding: 14px;
+     border: 2px solid rgb(38, 230, 38);
+     width: 9vw;
+     margin: 2vw;
+     border-radius: 30px;
+     background-color: rgb(34, 189, 34);
+     margin-left: 1vw;
+     font-size: 1rem;
+     cursor: pointer;
+ }
+ .farmer .btn a{
+     text-decoration: none;
+     color: white;
+     padding: 30px;
+ }
+ .farmer1 .btn1{
+    padding: 14px;
+    border: 2px solid rgb(38, 230, 38);
+    width: 9vw;
+    margin: 2vw;
+    border-radius: 30px;
+    background-color: rgb(34, 189, 34);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.farmer1 .btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 32px;
+}
+.farmer .btn:hover{
+    background-color: rgb(141, 236, 129);
+}
+.farmer1 .btn1:hover{
+    background-color: rgb(141, 236, 129);
+    color: black;
+}
+footer{
+    background: rgb(132, 230, 67);
+    color: white;
+    padding: 9px 20px;
+}
+.center{
+    text-align: center;
+}
